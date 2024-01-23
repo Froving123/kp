@@ -225,3 +225,57 @@ body {
     color: black;
 }
 
+.our_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 30px;
+}
+
+.menu_h{
+    color: rgb(188, 144,96);
+    font-size: 60px;
+}
+
+.menu{
+    height: 1200px;
+    width: 1000px;
+}
+
+.delivery_menu{
+    background-image: url(img/back_menu.jpg);
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.delivery_h{
+    margin-top: 100px;
+    color: rgb(252, 130, 37);
+    font-size: 50px;
+}
+
+.foods{
+
+}
+
+.food{
+
+}
+
+.img_food{
+
+}
+
+.food_h{
+
+}
+
+.button_menu_delivery{
+    
+}
