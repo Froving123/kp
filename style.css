@@ -13,9 +13,14 @@ body {
     grid-template-rows: 88px 1fr 72px;
 }
 
-a{
+.a_nav{
     text-decoration: none;
-    color: rgb(248, 162, 70);
+    color: rgb(252, 130, 37);
+    transition: 0.2s;
+}
+
+.a_nav:hover{
+    color: white;
 }
 
 .header{
@@ -58,7 +63,7 @@ a{
     align-items: center;
     width: max-content;
     gap: 20px; 
-    color: rgb(255, 106, 43);
+    color: rgb(252, 130, 37);
     text-align: center;
     margin-left: 100px;
     font-size: 33px; 
@@ -77,7 +82,7 @@ a{
 }
 
 .hr{
-    width: 50px;
+    width: 100px;
 }
 
 .button_menu{
@@ -88,6 +93,12 @@ a{
     font-weight: bold;
     font-size: large;
     width: max-content;
+    transition: 0.5s;
+}
+
+.button_menu:hover{
+    background-color:rgb(253, 116, 57);
+    color: black;
 }
 
 .advantages{
@@ -95,7 +106,7 @@ a{
     justify-content: space-between;
     justify-content: space-around;
     vertical-align: top;
-    margin: 50px 0px;
+    margin: 100px 0px;
 }
 
 .advantage{
@@ -103,6 +114,8 @@ a{
     flex-direction: column;
     align-items: center;
     border: 1px solid rgb(188, 144,96);
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-top: -200px;
     border-radius: 5px;
     background-color: white ;
     text-align: center;
@@ -126,7 +139,7 @@ a{
 .our_story{
     display: flex;
     justify-content: space-around;
-    margin-top: 1px;
+    margin-top: 130px;
     padding: 0px 100px;
     gap: 30px;
 }
@@ -136,6 +149,7 @@ a{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 35px;
 }
 
 .story_h{
@@ -159,3 +173,55 @@ a{
     height: 450px;
     width: 500px;
 }
+
+.discount{
+    background-image: url(img/discount_back.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 15px 100px;
+    gap: 30px;
+}
+
+.left_discount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.discount_h{
+    color: rgb(252, 130, 37);
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.discount_p{
+    color: white;
+    font-size: 28px;
+}
+
+.right_discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_delivery{
+    background-color: rgb(255, 106, 43);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    width: max-content;
+    transition: all;
+}
+
+.button_delivery:hover{
+    background-color:rgb(253, 116, 57);
+    color: black;
+}
+
