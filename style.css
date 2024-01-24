@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 0px 100px;
+    padding: 0px 50px;
     height: max-content;
 }
 
@@ -81,7 +81,7 @@ body {
     font-size: 45px;
 }
 
-.hr{
+.hr_name{
     width: 100px;
 }
 
@@ -241,6 +241,8 @@ body {
 .menu{
     height: 1200px;
     width: 1000px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    border-radius: 5px;
 }
 
 .delivery_menu{
@@ -276,6 +278,55 @@ body {
 
 }
 
+.price_menu{
+
+}
+
 .button_menu_delivery{
     
+}
+
+.all_footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: max-content;
+    margin-top: 0px;
+    padding: 0px 50px;
+}
+
+.top_footer{
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+}
+
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.top_fot_h{
+    color: rgb(252, 130, 37);
+    margin: 0%;
+    margin-bottom: 15px;
+    font-size: larger;
+}
+
+.top_fot_p{
+    color: rgb(252, 130, 37);
+    margin: 0%;
+    font-size: large;
+}
+
+.hr_footer{
+    width: 100%;
+}
+
+.fot_copyright{
+    color: white;
+    text-align: center;
 }
