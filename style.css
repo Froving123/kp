@@ -89,7 +89,7 @@ body {
     background-color: rgb(255, 106, 43);
     color: white;
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px 30px;
     font-weight: bold;
     font-size: large;
     width: max-content;
@@ -213,7 +213,7 @@ body {
     background-color: rgb(255, 106, 43);
     color: white;
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px 30px;
     font-weight: bold;
     font-size: x-large;
     width: max-content;
@@ -284,6 +284,83 @@ body {
 
 .button_menu_delivery{
     
+}
+
+.forma{
+    display: flex;
+    padding: 50px 40px;
+    justify-content: space-between;
+}
+
+.left_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_h{
+    color: rgb(188, 144,96);
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 4px;
+    margin: 0%;
+}
+
+.form_p{
+    color: rgb(82, 82, 82);
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.right_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: max-content;
+}
+
+.form_i{
+    font-size: 22px;
+    margin: 5px;
+    color: rgb(82, 82, 82);
+}
+
+.input_name{
+    width: 200px;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 5px 5px 25px 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgba(188, 144, 96, 0.51) 
+}
+
+.input_massage{
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgba(188, 144, 96, 0.51);
+    vertical-align: top;
+    height: 150px;
+    width: 600px;
+}
+
+.button_form{
+    background-color: rgb(255, 106, 43);
+    color: white;
+    border-radius: 10px;
+    margin: 20px 0px 0px 470px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: medium;
+    width: max-content;
+    transition: 0.5s;
+}
+
+.button_form:hover{
+    background-color:rgb(253, 116, 57);
+    color: black;
 }
 
 .all_footer {
