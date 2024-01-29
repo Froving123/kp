@@ -50,7 +50,7 @@ body {
 
 .main_div{
     margin-top: 30px;
-    background-image: url(img/main_back.jpg);
+    background-image: url(img/main_back.png);
     background-repeat: no-repeat;
     height: 867px;
     display: flex;    
@@ -82,7 +82,7 @@ body {
 }
 
 .hr_name{
-    width: 100px;
+    width: 130px;
 }
 
 .button_menu{
@@ -246,7 +246,7 @@ body {
 }
 
 .delivery_menu{
-    background-image: url(img/back_menu.jpg);
+    background-image: url(img/back_menu.png);
     width: 100%;
     height: max-content;
     display: flex;
