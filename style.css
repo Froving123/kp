@@ -28,14 +28,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: black;    
     padding: 0px 70px;
     height: max-content;
 }
 
 .logo{
-    width: 180px;
-    height: 150px;
+    width: 150px;
+    height: 120px;
 }
 
 .ul_header{
@@ -46,11 +46,11 @@ body {
 }
 
 .nav_p{
-    font-size: 35px;   
+    font-size: 30px;   
 }
 
 main{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .main_div{
@@ -97,7 +97,7 @@ main{
     background-color: rgb(255, 106, 43);
     color: white;
     border-radius: 15px;
-    padding: 25px 35px;
+    padding: 20px 30px;
     font-weight: bold;
     font-size: 23px;
     width: max-content;
@@ -126,7 +126,7 @@ main{
     border-radius: 10px;
     background-color: white ;
     text-align: center;
-    padding: 30px 45px 10px 45px;
+    padding: 30px 40px 10px 40px;
 }
 
 .advantage_main{
@@ -148,7 +148,7 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 90px;
     padding: 0px 125px;
     gap: 50px;
 }
@@ -162,13 +162,13 @@ main{
 
 .story_h{
     color: rgb(188, 144,96);
-    font-size: 63px;
+    font-size: 60px;
 }
 
 .story_p{
     color: rgb(82, 82, 82);
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 27px;
+    line-height: 32px;
 }
 
 .right_story{
@@ -178,8 +178,8 @@ main{
 }
 
 .story_img{
-    height: 600px;
-    width: 640px;
+    height: 580px;
+    width: 620px;
 }
 
 .discount{
@@ -189,7 +189,7 @@ main{
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
-    padding: 60px 125px;
+    padding: 40px 125px;
     gap: 50px;
 }
 
@@ -204,15 +204,15 @@ main{
 
 .discount_h{
     color: rgb(252, 130, 37);
-    letter-spacing: 3px;
-    font-size: 69px;
-    line-height: 69px;
+    letter-spacing: 2px;
+    font-size: 60px;
+    line-height: 60px;
     margin: 0%;
 }
 
 .discount_p{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .right_discount{
@@ -225,9 +225,9 @@ main{
     background-color: rgb(255, 106, 43);
     color: white;
     border-radius: 15px;
-    padding: 25px 35px;
+    padding: 20px 30px;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 25px;
     width: max-content;
     transition: 0.5s;
 }
@@ -241,14 +241,14 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
     gap: 30px;
 }
 
 .menu_h{
     color: rgb(188, 144,96);
     letter-spacing: 2px;
-    font-size: 75px;
+    font-size: 70px;
 }
 
 .menu{
@@ -308,32 +308,32 @@ main{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 80px 0px 90px 0px;
+    padding: 50px 0px 60px 0px;
 }
 
 .feedback_h{
-    font-size: 37px;
+    font-size: 30px;
     font-style: italic;
     font-weight: 400;
-    line-height: 43px;
+    line-height: 36px;
     margin-bottom: 50px;
 }
 
 .img_profile{
-    width: 125px;
-    height: 124px;
+    width: 110px;
+    height: 109px;
     border-radius: 100%;
     box-shadow: 10px 10px 40px 20px #0000001A;
 }
 
 .feedback_p{
-    font-size: 30px;
+    font-size: 26px;
     color: rgb(82, 82, 82);
     margin-bottom: 0%;
 }
 
 .feedback_name{
-    font-size: 30px;
+    font-size: 26px;
     color: rgb(82, 82, 82);
 }
 
@@ -351,7 +351,7 @@ main{
     margin: 0%;
     color: rgb(188, 144,96);
     letter-spacing: 2px;
-    font-size: 80px;
+    font-size: 75px;
 }
 
 .imges_rest{
@@ -359,12 +359,12 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 110px;
 }
 
 .img_rest{
-    height: 440px;
-    width: 540px;
+    height: 420px;
+    width: 520px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px 20px #0000001A;
 
@@ -372,27 +372,29 @@ main{
 
 .forma{
     display: flex;
-    padding: 80px 40px 50px 40px;
+    padding: 80px 55px 50px 55px;
     justify-content: space-between;
 }
 
 .left_form{
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
 }
 
 .form_h{
     color: rgb(188, 144,96);
-    font-size: 95px;
-    line-height: 95px;
-    letter-spacing: 5px;
+    font-size: 85px;
+    line-height: 85px;
+    letter-spacing: 4px;
     margin: 0%;
 }
 
 .form_p{
     color: rgb(82, 82, 82);
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 38px;
+    line-height: 38px;
 }
 
 .right_form{
@@ -403,15 +405,15 @@ main{
 }
 
 .form_i{
-    font-size: 33px;
+    font-size: 30px;
     margin: 5px;
     color: rgb(82, 82, 82);
 }
 
 .input_name{
-    width: 220px;
+    width: 200px;
     border-radius: 3px;
-    font-size: 24px;
+    font-size: 20px;
     margin: 5px 5px 25px 5px;
     padding: 5px;
     border: 1px solid black;
@@ -421,22 +423,22 @@ main{
 .input_massage{
     resize: none;
     border-radius: 5px;
-    font-size: 24px;
+    font-size: 20px;
     margin: 5px;
     padding: 5px;
     border: 1px solid black;
     background-color: rgba(188, 144, 96, 0.51);
     vertical-align: top;
-    height: 230px;
-    width: 680px;
+    height: 210px;
+    width: 660px;
 }
 
 .button_form{
     background-color: rgb(255, 106, 43);
     color: white;
     border-radius: 10px;
-    margin: 30px 0px 0px 495px;
-    padding: 15px 35px;
+    margin: 30px 0px 0px 485px;
+    padding: 15px 30px;
     font-weight: bold;
     font-size: 24px;
     width: max-content;
@@ -461,6 +463,7 @@ main{
     display: flex;
     justify-content: space-between;
     height: max-content;
+    margin-bottom: 15px;
 }
 
 .footer_info{
@@ -475,13 +478,13 @@ main{
     color: rgb(252, 130, 37);
     margin: 0%;
     margin-bottom: 20px;
-    font-size: 27px;
+    font-size: 25px;
 }
 
 .top_fot_p{
     color: rgb(252, 130, 37);
     margin: 0%;
-    font-size: 23px;
+    font-size: 22px;
 }
 
 .hr_footer{
