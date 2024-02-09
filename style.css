@@ -93,7 +93,7 @@ main{
     background-color: rgb(252, 130, 37);
 }
 
-.button_menu{
+.button_reserv{
     background-color: rgb(255, 106, 43);
     color: white;
     border-radius: 10px;
@@ -390,7 +390,8 @@ main{
 
 .feedback_h1{
     font-size: 30px;
-    font-style: italic;
+    /*font-style: italic;*/
+    font-family: 'Tinos-Italic';
     font-weight: 400;
     line-height: 36px;
     margin-bottom: 50px;
@@ -425,7 +426,8 @@ main{
 
 .feedback_h2{
     font-size: 30px;
-    font-style: italic;
+     /*font-style: italic;*/
+     font-family: 'Tinos-Italic';
     font-weight: 400;
     line-height: 36px;
     margin-bottom: 50px;
@@ -460,7 +462,8 @@ main{
 
 .feedback_h3{
     font-size: 30px;
-    font-style: italic;
+     /*font-style: italic;*/
+     font-family: 'Tinos-Italic';
     font-weight: 400;
     line-height: 36px;
     margin-bottom: 50px;
@@ -519,7 +522,7 @@ main{
     color: black;
 }
 
-.imges_main{
+.gallery{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -529,7 +532,7 @@ main{
     gap: 90px;
 }
 
-.imges_h{
+.gallery_h{
     margin: 0%;
     color: rgb(188, 144,96);
     letter-spacing: 2px;
